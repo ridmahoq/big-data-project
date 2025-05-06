@@ -16,6 +16,7 @@ plt.xlabel("Trip Hour")
 plt.ylabel("Trip Count")
 plt.xticks(range(0, 24))
 plt.grid()
+plt.savefig("plots/trips_per_hour.png")
 plt.show()
 
 query = "SELECT time_category, avg_fare FROM gold_time_category;"
@@ -34,6 +35,7 @@ plt.xlabel("Time Category")
 plt.ylabel("Avg Fare ($)")
 plt.xticks(rotation=25)
 plt.grid()
+plt.savefig("plots/avg_fare_per_time_category.png")
 plt.show()
 
 session.shutdown()

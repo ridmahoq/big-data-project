@@ -49,6 +49,6 @@ plt.ylabel('Total Trip Amount ($)')
 plt.xticks(range(len(all_months)), x_labels, rotation=45)
 plt.legend()
 plt.tight_layout()
-
-CassandraConnection.shutdown()
+plt.savefig("plots/monthly_trip_total.png")
 plt.show()
+CassandraConnection.shutdown()
