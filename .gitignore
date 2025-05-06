@@ -1,0 +1,7 @@
+env/
+not_pushing/
+__pycache__/
+
+.env
+secure-connect-taxi.zip
+*.pyc
