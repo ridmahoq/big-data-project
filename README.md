@@ -1,6 +1,6 @@
-# Big Data Project — Taxi ETL & Analytics
+# Big Data Project — Taxi ELT & Analytics
 
-A simple ETL pipeline and analytics playground for a taxi trips dataset that demonstrates a bronze → silver → gold processing pattern and stores results in Apache Cassandra (Astra DB compatible). Includes ingestion, cleaning/curation, aggregation jobs, and a few visualization scripts.
+A simple ELT pipeline and analytics playground for a taxi trips dataset that demonstrates a bronze → silver → gold processing pattern and stores results in Apache Cassandra (Astra DB compatible). Includes ingestion, cleaning/curation, aggregation jobs, and a few visualization scripts.
 
 See the short demo: https://youtu.be/cZVOHB8HRfc
 
